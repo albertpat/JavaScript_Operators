@@ -39,13 +39,13 @@ let str3 = "5";
 let str4 = "five";
 let isPresent2 = false;
 
-console.log(val == str3)
-console.log( val === str3)
-console.log( !isPresent2)
-console.log("eleven" == str4 && val >= str3)
-console.log(!isPresent2 || isPresent2)
-console.log( 0 == false)
-console.log(0 === false)
-console.log(0 != false)
-console.log(0 !== false)
+console.log(val == str3) //true
+console.log( val === str3) // false
+console.log( !isPresent2) //true
+console.log("eleven" == str4 && val >= str3) //false
+console.log(!isPresent2 || isPresent2) //true
+console.log( 0 == false) //true
+console.log(0 === false) //false
+console.log(0 != false) //false
+console.log(0 !== false) //true
 // YOUR CODE HERE
